@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: #fff;
+}
+.navbar {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 2rem;
+}
+h1 {
+    font-size: 2rem;
+}
+.links a {
+    display: inline-block;
+    margin: 0.25rem;
+    color: #90caf9;
+    text-decoration: underline;
+}
+.cta-card {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    padding: 2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.cta-card:hover {
+    transform: scale(1.02);
+}
