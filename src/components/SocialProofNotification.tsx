@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, CheckCircle } from 'lucide-react';
 
 const SocialProofNotification = () => {
   const [notifications, setNotifications] = useState<Array<{
@@ -121,13 +120,8 @@ const SocialProofNotification = () => {
               </p>
             </div>
             <div className="flex-shrink-0">
-              <div className="w-6 h-6">
-                <DotLottieReact
-                  src="https://lottie.host/2d2904ad-8f9e-4e4c-b584-cdd1c1d64ea1/TqRPVnNJGX.json"
-                  loop={false}
-                  autoplay
-                  className="w-full h-full"
-                />
+              <div className="w-6 h-6 flex items-center justify-center">
+                <CheckCircle className="w-5 h-5 text-green-300 animate-pulse" />
               </div>
             </div>
           </div>
